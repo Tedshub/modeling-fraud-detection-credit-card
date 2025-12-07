@@ -1,0 +1,43 @@
+{
+  "model_type": "XGBoost Classifier Pipeline",
+  "framework": "scikit-learn + XGBoost",
+  "training_date": "2025-12-07 06:55:37",
+  "n_features": 16,
+  "feature_names": [
+    "cc_num",
+    "category",
+    "amt",
+    "gender",
+    "city",
+    "state",
+    "zip",
+    "lat",
+    "long",
+    "city_pop",
+    "merch_lat",
+    "merch_long",
+    "hour",
+    "dayofweek",
+    "month",
+    "age"
+  ],
+  "n_samples_train": 1296675,
+  "n_samples_test": 555719,
+  "best_params": {
+    "subsample": 0.8,
+    "n_estimators": 300,
+    "min_child_weight": 5,
+    "max_depth": 9,
+    "learning_rate": 0.1,
+    "gamma": 0,
+    "colsample_bytree": 0.8
+  },
+  "scale_pos_weight": 171.75179856115108,
+  "performance": {
+    "accuracy": 0.9984146664051436,
+    "precision": 0.7964352720450282,
+    "recall": 0.7916083916083916,
+    "f1_score": 0.7940144961421557,
+    "roc_auc": 0.9943962931178734
+  }
+}
