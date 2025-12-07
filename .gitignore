@@ -1,0 +1,6 @@
+# datasets
+dataset-fraud/
+*.csv
+
+# local environment
+.venv/
