@@ -82,6 +82,7 @@ modeling-fraud-detection-credit-card/
 ```
 
 ## Installation & Setup
+### Use VS Code or another IDE (I recommend using VS Code because the project was created with it)
 
 ### Step 1: Create and Activate Virtual Environment
 
